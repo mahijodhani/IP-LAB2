@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - GreenTech Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        a:hover, button:hover {
+            text-decoration: underline;
+            color: blue !important;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        a, button {
+            transition: color 0.3s ease, background-color 0.3s ease, text-decoration 0.3s ease;
+            padding: 20px;
+        }
+        /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover, button:hover {
+    text-decoration: underline;
+    color: blue !important;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a, button {
+    transition: color 0.3s ease, background-color 0.3s ease, text-decoration 0.3s ease;
+    padding: 20px;
+}
+
+/* Main Content Section */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.service {
+    flex: 1 1 calc(33.333% - 40px);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service img {
+    width: 100%;
+    display: block;
+    border-bottom: 3px solid #4CAF50;
+}
+
+.service h3 {
+    font-size: 1.2em;
+    margin: 15px 0;
+    padding: 0 15px;
+    color: #333;
+}
+
+.service p {
+    padding: 0 15px 15px;
+    color: #666;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services-container {
+        flex-direction: column;
+    }
+    
+    .service {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Our Services</h1>
+    </header>
+
+    <!-- Navigation Links -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="services-container">
+            <!-- Service 1 -->
+            <div class="service">
+                <h3>Managed IT Services</h3>
+                <img src="itservice.jpg" alt="Managed IT Services">
+                <p>We provide comprehensive managed IT services that help businesses operate smoothly with minimal downtime. Our team handles everything from network management to cybersecurity, ensuring your IT infrastructure is secure and efficient.</p>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service">
+                <h3>Cloud Computing</h3>
+                <img src="cloud.jpg" alt="Cloud Computing">
+                <p>Leverage the power of the cloud with our cloud computing services. We help businesses migrate to cloud-based solutions, providing scalability, flexibility, and cost savings.</p>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service">
+                <h3>IT Consulting</h3>
+                <img src="consulting.jpg" alt="IT Consulting">
+                <p>Our IT consulting services provide expert advice to help your business stay ahead of the technological curve. We offer strategic planning, technology assessments, and guidance on best practices to align IT with your business goals.</p>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service">
+                <h3>Cybersecurity Solutions</h3>
+                <img src="cybersecurity.jpg" alt="Cybersecurity Solutions">
+                <p>Protect your business from cyber threats with our robust cybersecurity solutions. We offer comprehensive security assessments, monitoring, and incident response services to safeguard your digital assets.</p>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="service">
+                <h3>Business Continuity & Disaster Recovery</h3>
+                <img src="business.jpg" alt="Business Continuity & Disaster Recovery">
+                <p>Ensure your business remains operational during unforeseen events with our business continuity and disaster recovery services. We help you develop and implement effective strategies to minimize downtime and data loss.</p>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="service">
+                <h3>Network Solutions</h3>
+                <img src="networksolution.jpg" alt="Network Solutions">
+                <p>Optimize your network infrastructure with our network solutions. We design, deploy, and manage networks that provide reliability, security, and performance, tailored to meet your business needs.</p>
+            </div>
+
+            <!-- Service 7 -->
+            <div class="service">
+                <h3>Hardware & Software Procurement</h3>
+                <img src="hardware.jpg" alt="Hardware & Software Procurement">
+                <p>Streamline your hardware and software procurement process with our expert guidance. We help you select the best technology solutions that align with your business requirements and budget.</p>
+            </div>
+
+            <!-- Service 8 -->
+            <div class="service">
+                <h3>Virtualization Services</h3>
+                <img src="virtualization.jpg" alt="Virtualization Services">
+                <p>Maximize your IT resources with our virtualization services. We help you create a more flexible and efficient IT environment, reducing hardware costs and improving scalability.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <nav>
+            <p>Follow us on:</p>
+            <a href="https://facebook.com/GreenTechSolutions" target="_blank">Facebook</a> |
+            <a href="https://twitter.com/GreenTechSol" target="_blank">Twitter</a> |
+            <a href="https://linkedin.com/company/GreenTechSolutions" target="_blank">LinkedIn</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
